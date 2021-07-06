@@ -2,49 +2,69 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
+section{
+  height: 480px;
+  padding-bottom: 150px;
+}
+.top-banner{
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 3%;
+}
+
 h1 {
   font-size: 50px;
 }
-.orange-color {
+h1 span{
   color: orange;
-  text-align: justify;
 }
-section {
-  display: flex;
+.half-width img{
+  width: 100%;
 }
-.half-width img {
-
-  border: 3px solid goldenrod;
-  border-radius: 4px;
-  padding: 5px;
-  width: 75%;
-}
-.half-width {
-  width: 50%;
-  padding: 5%;
-  text-align: justify;
-}
-.link-button {
+.link-button{
   text-decoration: none;
-  background-color: orange;
+  background: linear-gradient(orange, yellow);
   padding: 10px 40px;
-  border-redius: 5px;
-  background-image: linear-gradient(red, yellow);
+  border-radius: 6px;
   color: white;
   font-weight: 700;
-  border: 4px solid silver;
-}
-.top-banner{
-  background-image: url(images/top-banner.png);
-  background-repeat: no-repeat;
-}
-section{
-  display: flex;
-  margin-bottom: 150px;
 
 }
+p{
+  color: dimgrey;
+}
 .dream-big{
-  background-image: url(images/dream-bg.png);
+  background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
+
+h2 {
+  font-size: 40 px;
+}
+.experience-area{
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-area h3{
+  color: orangered;
+}
+.experience-area div{
+  box-shadow: 5px 7px 40px gray;
+  height: 80%;
+}
+#developer{
+  border-left: 7px solid;
+ border-image: linear-gradient(180 deg, blue,cyan);
+ border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+}
+
